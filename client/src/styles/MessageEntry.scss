@@ -1,0 +1,27 @@
+.message-entry {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  border-top: 2px solid  rgb(234, 236, 237);
+  
+  &__input {
+    border: none;
+    padding: 3%;
+    width: 80%;
+    font-size: 1em;
+    height: 100%;
+  }
+  
+  &__button {
+    color: #fff !important;
+    font-size: 16px;
+    text-decoration: none;
+    background: rgb(25, 119, 242);
+    padding: 8px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+    height: 100%;
+    cursor: pointer; 
+  }
+}

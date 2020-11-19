@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:  rgb(25, 119, 242);
+  height: 60px;
+  width: 100%;
+
+  &__left {
+    display: flex;
+    flex: 0.5;
+    margin-left: 5%;
+    color: white;
+  }
+  
+  &__right {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+
+  &__img {
+    height: 60%;
+  }
+}
+
